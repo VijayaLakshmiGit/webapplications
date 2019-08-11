@@ -22,7 +22,6 @@ public class GetTestCases extends ServiceUtility {
 		Assert.assertEquals(response.getStatusLine().getReasonPhrase(), "OK");
 
 		String responsestr = EntityUtils.toString(response.getEntity());
-		
 
 		Assert.assertTrue(responsestr.contains("<ID>"));
 		Assert.assertTrue(responsestr.contains("<FIRSTNAME>George</FIRSTNAME>"));
