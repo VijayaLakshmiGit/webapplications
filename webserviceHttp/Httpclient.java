@@ -14,6 +14,7 @@ public class Httpclient {
 		String url = "http://www.thomas-bayer.com/sqlrest/CUSTOMER/1";
 		HttpClient client = HttpClientBuilder.create().build();
 		HttpGet request = new HttpGet(url);
+		System.out.println("=========anusfsdfdfsd==ffff======");
 
 		HttpResponse response = client.execute(request);
 
