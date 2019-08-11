@@ -21,8 +21,9 @@ public class NameKey {
 				Second.put(s1,count);
 				Intial.add(s1+" "+count);
 				}
-				else
+				else{
 				Second.put(s1,count);
+				}
 				}
 			else
 			Intial.add(s1);
